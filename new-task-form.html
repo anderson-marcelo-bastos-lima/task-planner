@@ -19,7 +19,9 @@
 <body>
     <!-- Start - Menu -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Task Planner</a>
+        <a class="navbar-brand" href="./index.html">
+            <img src="./resources/images/logo.svg" alt="Logo">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -61,31 +63,37 @@
             <!-- Task Name -->
             <div class="form-group">
                 <label for="text" class="form-label">Task Name</label>
-                <input type="text" class="form-control" placeholder="Enter your task name" aria-label="Task Name">
+                <input type="text" class="form-control" placeholder="Enter your task name" aria-labelledby="Enter your task name." required>
             </div>
 
             <!-- Task Description -->
             <div class="form-group">
                 <label for="validationTextarea" class="form-label">Description</label>
-                <textarea class="form-control" id="validationTextarea" placeholder="Enter your task description"></textarea>
+                <textarea class="form-control" id="validationTextarea"
+                    placeholder="Enter your task description" aria-labelledby="Enter your task description." required></textarea>
             </div>
 
-            <!-- Task Assign To -->
+            <!-- Task Status -->
             <div class="form-group">
-                <label for="text" class="form-label">Assign To</label>
-                <input type="text" class="form-control" placeholder="Enter the name of person responsible for the task" aria-label="Name of person responsible for the task">
+                <label for="task-assign-to" class="form-label">Assign To</label>
+                <select class="form-control" id="task-assign-to" aria-labelledby="Select the name of person responsible for the task." required>
+                    <option selected></option>
+                    <option value="1">Anderson</option>
+                    <option value="2">Geneve</option>
+                    <option value="3">Gagan</option>
+                </select>
             </div>
 
             <!-- Task Due Date -->
             <div class="form-group">
                 <label for="date">Due Date</label>
-                <input type="date" value="date" placeholder="The date the task must be completed">
+                <input type="date" value="date" aria-labelledby="Select the date the task must be completed." required>
             </div>
 
             <!-- Task Status -->
             <div class="form-group">
                 <label for="taskstatus" class="form-label">Status</label>
-                <select class="form-control" id="taskstatus">
+                <select class="form-control" id="taskstatus" aria-labelledby="Select the status of the task." required>
                     <option selected></option>
                     <option value="1">TODO</option>
                     <option value="2">IN PROGRESS</option>
@@ -95,7 +103,7 @@
             </div>
 
             <!-- Add Task -->
-            <button type="submit" class="btn btn-primary">Add Task</button>
+            <button type="submit" class="btn btn-outline-primary px-5">Add Task</button>
         </form>
     </div>
     <!-- End - Form -->
