@@ -1,0 +1,23 @@
+/**
+ * Styling Task Card Display Page
+ */
+.card {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#container-task-grid-section .btn{
+    font-size: 0.650rem;
+    width: 6rem;
+}
+
+
+
+
+/**
+ * Styling New Task Form
+ */
+#new-task-form {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

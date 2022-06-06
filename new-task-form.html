@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Task Planner CSS -->
+    <link type="text/css" rel="stylesheet" href="./resources/css/style.css">
+
+    <title>Task Planner</title>
+</head>
+
+<body>
+    <!-- Start - Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Task Planner</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Support</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sing In</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sing Up</button>
+            </form>
+        </div>
+    </nav>
+    <!-- End - Menu -->
+
+    <!-- Start - Hero -->
+    <div class="pt-4 pb-1 pl-1 ml-1 bg-white">
+        <h3 class="h3">Project Name</h3>
+    </div>
+    <!-- End - Hero -->
+
+
+
+    <!-- Start - Form -->
+    <div class="container ml-0">
+        <form class="p-2" id="new-task-form">
+            <!-- Task Name -->
+            <div class="form-group">
+                <label for="text" class="form-label">Task Name</label>
+                <input type="text" class="form-control" placeholder="Enter your task name" aria-label="Task Name">
+            </div>
+
+            <!-- Task Description -->
+            <div class="form-group">
+                <label for="validationTextarea" class="form-label">Description</label>
+                <textarea class="form-control" id="validationTextarea" placeholder="Enter your task description"></textarea>
+            </div>
+
+            <!-- Task Assign To -->
+            <div class="form-group">
+                <label for="text" class="form-label">Assign To</label>
+                <input type="text" class="form-control" placeholder="Enter the name of person responsible for the task" aria-label="Name of person responsible for the task">
+            </div>
+
+            <!-- Task Due Date -->
+            <div class="form-group">
+                <label for="date">Due Date</label>
+                <input type="date" value="date" placeholder="The date the task must be completed">
+            </div>
+
+            <!-- Task Status -->
+            <div class="form-group">
+                <label for="taskstatus" class="form-label">Status</label>
+                <select class="form-control" id="taskstatus">
+                    <option selected></option>
+                    <option value="1">TODO</option>
+                    <option value="2">IN PROGRESS</option>
+                    <option value="3">REVIEW</option>
+                    <option value="4">DONE</option>
+                </select>
+            </div>
+
+            <!-- Add Task -->
+            <button type="submit" class="btn btn-primary">Add Task</button>
+        </form>
+    </div>
+    <!-- End - Form -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
