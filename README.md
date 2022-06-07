@@ -97,20 +97,32 @@ Create a Task Planner web app from scratch.
  - [Gagan.](https://github.com/gaganrathore)
 
 ## 3. Management
-The division of work was carried out using the agile development model for small teams with style in the Scrum framework through the [Trello](https://trello.com/) tool.
+The division of work was carried out using the agile development model for small teams with style in the Scrum framework through the [Trello](https://trello.com/) tool.  
+<br>
 ![Trello](./resources/docs/trello-s.png)
 
 ## 4. Communication
 We adopted [Slack](https://slack.com/) for chatting and [Zoom](https://zoom.us/) for virtual meetings as a team communications tool.
 
 ## 5. Wireframe
-Project wireframes in Figma and Adobe XD.
- - Task Layout Page on the desktop version.
-![Figma](./resources/docs/cardlayoutpage-wireframe-website.png)
- - Task Layout Page on the mobile version.
-![Figma](./resources/docs/cardlayoutpage-mobile-wireframe-website.png)
- - Form Layout Page on the mobile version.
+Project wireframes in Figma and Adobe XD.  
+
+ - Task Layout Page on the desktop version.  
+
+![Figma](./resources/docs/cardlayoutpage-wireframe-website.png)  
+
+ - Task Layout Page on the mobile version.  
+
+![Figma](./resources/docs/cardlayoutpage-mobile-wireframe-website.png)  
+
+ - Form Layout Page on the desktop version.  
+
+![Adobe XD](./resources/docs/taskform-wireframe-website.png)
+
+ - Form Layout Page on the mobile version.  
+
 ![Adobe XD](./resources/docs/taskform-mobile-wireframe-website.png)
+  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## 6. Built With
