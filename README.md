@@ -92,7 +92,7 @@ Create a Task Planner web app from scratch.
 
 
 ## 2. Group
- - [Anderson.]https://github.com/anderson-marcelo-bastos-lima)
+ - [Anderson.](https://github.com/anderson-marcelo-bastos-lima)
  - [Geneve.](https://github.com/Geneve5)
  - [Gagan.](https://github.com/gaganrathore)
 
