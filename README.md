@@ -47,6 +47,21 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#built-with">Project</a></li>
+      </ul>
+      <ul>
+        <li><a href="#built-with">Group</a></li>
+      </ul>
+      <ul>
+        <li><a href="#built-with">Management</a></li>
+      </ul>
+      <ul>
+        <li><a href="#built-with">Communication</a></li>
+      </ul>
+      <ul>
+        <li><a href="#built-with">Wireframe</a></li>
+      </ul>
+      <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -65,28 +80,39 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+# About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://anderson-marcelo-bastos-lima.github.io/task-planner/)
 
-1. Project: Create a Task Planner web app from scratch.
+## 1. Project
+Create a Task Planner web app from scratch.
+ - Contains a Task Form with the required information (Name, Description, AssignedTo, DueDate, Status)
+ - Contains a Task Layout (check this Card Layout example) with the required information (Name, Description, AssignedTo, DueDate, Status)
+ - Wireframe solves all the UI challenges to represent the Task Planner and a clear view of a Task with the required fields(Name, Description, AssignedTo, DueDate, Status)
 
-2. Group:
- - Anderson.
- - Geneve.
- - Gagan.
 
-3. Management: Using Trello as a project management tool.
+## 2. Group
+ - [Anderson.]https://github.com/anderson-marcelo-bastos-lima)
+ - [Geneve.](https://github.com/Geneve5)
+ - [Gagan.](https://github.com/gaganrathore)
 
-4. Communication: Using Slack and Zoom as a team communications tool.
+## 3. Management
+The division of work was carried out using the agile development model for small teams with style in the Scrum framework through the [Trello](https://trello.com/) tool.
+![Trello](./resources/docs/trello.jpg)
 
-5. Wirefrane: Using Figma and Adobe as a wireframe tool.
+## 4. Communication
+We adopted [Slack](https://slack.com/) for chatting and [Zoom](https://zoom.us/) for virtual meetings as a team communications tool.
+
+## 5. Wireframe
+Project wireframes in Figma and Adobe XD.
+ - Task Layout Page on the desktop version.
+![Trello](./resources/docs/cardlayoutpage-wireframe-website.png)
+ - Task Layout Page on the mobile version.
+![Trello](./resources/docs/cardlayoutpage-mobile-wireframe-website.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-### Built With
+## 6. Built With
 * [Git](https://git-scm.com/)
 * [GitHub](https://github.com/)
 * [GitHub Pages](https://pages.github.com/)
@@ -101,7 +127,9 @@
 <!-- WHAT THE PROJECT DOES -->
 ## What the project does
 
-The project shows the HTML and CSS implementation of a wireframe document.
+The project results from group work to create a web application to plan tasks (Task Planner).
+
+It demonstrates the construction of a web application with few guidelines as scope to create a wireframe and code it in HTML, CSS and Bootstrap.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -110,7 +138,8 @@ The project shows the HTML and CSS implementation of a wireframe document.
 <!-- WHY THE PROJECT IS USEFUL -->
 ## Why the project is useful
 
-The project helps understand the transformation of a wireframe document into a website.
+The project helps to understand how the wireframe is built from a scope and then coded into a website.
+The project helps to understand how the wireframe is built from a scope and then coded into a website.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
